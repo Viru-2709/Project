@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.App {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.links {
+  align-self: center;
+  text-align: end;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.container-1 {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-1 {
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 400px;
+  background-color: #000000;
+  padding: 10px 30px;
+}
+
+.card_title-1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.card_title-1 h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card_title-1 a {
+  text-decoration: none;
+  color: #f50000;
+}
+
+button {
+  background-color: #f50000;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  width: 100%;
+  margin: 20px 0 !important;
+}
+
+input {
+  margin: 15px 0 !important;
+  width: 100%;
+  color: #fff;
+  background-color: #000000;
+  border: 1px solid white;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.Title h1 {
+  color: #f50000;
+}
+
+.info {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: large;
+  word-spacing: 2px;
+}
+
+
+.text p {
+  text-align: justify;
+}
+
+.text-1 h5 {
+  margin-right: -3%;
+}
+
+.text-2 h5 {
+  margin-right: -2%;
+}
+
+.text-start-2 {
+  margin-left: 60%;
+  list-style: none;
+  text-align: start;
+  text-decoration: none;
+}
+
+.text-start-2 li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-start-2 li a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.text-1-start {
+  margin-left: 52%;
+  list-style: none;
+  text-align: start;
+}
+
+.text-1-start li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-1-start li a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+svg {
+  font-size: 20px;
+}
+
+.text-color {
+  color: #3498db;
+}
+
+.text-start-1 {
+  text-align: left;
+}
+
+.videos {
+  position: relative;
+}
+
+.videos a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videos svg {
+  font-size: 100px;
+  color: #000000;
+}
+
+.images img {
+  height: 300px;
+}
+
+.info-1 h2 {
+  color: #f50000;
+}
+
+.info-1 p {
+  word-spacing: 2px;
+  letter-spacing: 3px;
+  font-size: medium;
+}
+
+.info-1 a {
+  text-decoration: none;
+  color: #fff;
+  background: #f50000;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.Games h2 {
+  color: #f50000;
+}
+
+.card {
+  border: none !important;
+}
+
+.Teams h2 {
+  color: #f50000;
+}
+
+.bt {
+  text-align: right !important
+}
+
+.bt a {
+  color: #fff;
+  background: #f50000;
+  padding: 15px;
+  margin: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 5px !important;
+  padding: 20px !important;
+}
+
+.Tournament h2 {
+  color: #f50000;
+}
+
+.Tournament h4 {
+  color: #f50000;
+}
+
+.info-2 {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: large;
+  text-align: center;
+  word-spacing: 5px;
+}
+
+.bt-1 {
+  text-align: right !important;
+  padding-top: 20px;
+}
+
+.bt-1 a {
+  color: #fff;
+  background: #f50000;
+  padding: 15px;
+  margin: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+tr td a {
+  color: #fff;
+  background: #f50000;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.inquiry {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.inquiry h3 {
+  color: #f50000;
+}
+
+.inquiry h6 {
+  font-size: large;
+  word-spacing: 3PX;
+  letter-spacing: 2px;
+}
+
+.infoo h2 {
+  color: #f50000;
+}
+
+.infoo p {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: large;
+  font-family: sans-serif;
+  word-spacing: 3px;
+}
+
+
+.aboutus h6 {
+  margin-left: 25%;
+  margin-right: 25%;
+  word-spacing: 3px;
+  font-size: larger;
+}
+
+.aboutus h2 {
+  color: red;
+}
+
+
+.heading {
+  margin-left: 3%;
+  text-align: start;
+  font-size: medium;
+}
+
+.Title h5 {
+  text-align: start;
+  margin-left: 3%;
+  color: red;
+}
+
+.list {
+  text-align: start;
+  margin-left: 5%;
+}
+
+.round {
+  border-radius: 0 50% 50% 0;
+}
+
+.w-60 {
+  width: 70%;
+}
+
+.organizing.pt-5.d-flex {
+  align-items: center;
+}
